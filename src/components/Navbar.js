@@ -27,7 +27,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Mikayla Ryan <FontAwesomeIcon icon={solid("palette")} />
+            <img alt="" src="/../images/paintings/logo.png" height="50px"></img>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <FontAwesomeIcon icon={click ? solid("times") : solid("bars")} />
